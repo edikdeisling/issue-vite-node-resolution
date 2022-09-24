@@ -1,0 +1,8 @@
+{
+  "name": "@issue-vite-node-resolution/common",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "vite-svg-loader": "3.4.0"
+  }
+}

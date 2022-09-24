@@ -1,0 +1,16 @@
+{
+  "name": "@issue-vite-node-resolution/app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:normal": "vite build",
+    "build:ts-node": "ts-node node_modules/vite/bin/vite.js build",
+    "build:file:normal": "node build.mjs",
+    "build:file:ts-node": "ts-node --esm build.mjs"
+  },
+  "devDependencies": {
+    "@issue-vite-node-resolution/common": "latest",
+    "vite": "3.1.3",
+    "ts-node": "10.9.1"
+  }
+}

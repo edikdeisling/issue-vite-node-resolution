@@ -1,0 +1,7 @@
+{
+  "extends": "../../tsconfig.node.json",
+  "include": [
+    "build.mts",
+    "vite.config.ts"
+  ]
+}
